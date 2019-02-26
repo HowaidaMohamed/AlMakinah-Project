@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-fluid img{
+
+    width: 100px;
+    height: 100px;
+}
+.nav-item a{
+    color: white;
+}
+
+.container-fluid{
+    /* background: rgb(10, 22, 7); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.1px grey solid;
+   
+}
+.ul1{
+    display: flex;
+    flex-direction: row;
+   /* padding: 0 200px 0 0px; */
+   
+  
+}
+
+.text-light{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+}
+.btn{
+    background: red;
+
+}
+
+/* .p-2 {
+    background: rgb(44, 27, 2);
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    
+} */
+
+
+.sec{
+    font-size: 10px;
+    margin-top: 0;
+    
+}
+
+.text-uppercase{
+    text-align: center;
+    
+}
+
+.part2{
+    /* width: 500px; */
+    background: lightgrey;
+}
+
+.icons{
+    background: red;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-right: 250px;
+    margin-left: 10px;
+}
+
+.form-inline{
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.input-group-text a{
+    color: black;
+}
+.fa-shopping-cart{
+    color: white;
+    font-size: 30px;
+}
+.username a {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.username{
+    margin-top: 15px;
+}
+
+.contact li{
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact{
+    padding-left: 0;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+}
+
+.info a{
+    color: white;
+}
+
+
+small{
+    color: white;
+}
+.fa-facebook-square, .fa-twitter-square, .fa-linkedin {
+    font-size: 35px;
+    color: white;
+    padding-right: 0;
+}
+
+footer{
+    margin-top: 100px;
+}
+.fa-facebook-square, .fa-linkedin {
+    margin: 0 30px;
+} 
