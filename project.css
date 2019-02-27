@@ -35,7 +35,7 @@ body{
 
 .text-light{
     text-transform: uppercase;
-    font-size: 30px;
+    /* font-size: 30px; */
     text-align: left;
 }
 
@@ -152,5 +152,23 @@ footer{
 .seemore{
     font-size: 20px;
     
+    text-align: center;
+}
+
+.filters{
+    font-size: 20px;
+    
+}
+
+.filters2{
+    text-transform: none;
+}
+
+.alb{
+    width: webkit-fill-available;
+    height: auto;
+}
+.input-group{
+    width:50%;
     text-align: center;
 }
