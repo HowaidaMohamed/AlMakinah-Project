@@ -127,7 +127,7 @@ addToPage(products.movies);
 
 // addToPage(products.movies);
 
-function addToPage(a){
+function addToPage2(a){
     for(var j=0; j< a.length;j++){
     var i="#"+a[j].id;
     var m= i+" img";
@@ -145,9 +145,9 @@ function addToPage(a){
     $(p).text(a[j].price + " EGP");
     }
 };
-addToPage(products.albums);
+addToPage2(products.albums);
 
-function addToPage(a){
+function addToPage3(a){
     for(var j=0; j< a.length;j++){
     var i="#"+a[j].id;
     var m= i+" img";
@@ -166,7 +166,7 @@ function addToPage(a){
     }
 };
 
-addToPage(products.books);
+addToPage3(products.books);
 
 
 $()
