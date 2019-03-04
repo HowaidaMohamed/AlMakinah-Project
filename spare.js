@@ -184,6 +184,39 @@ $(".form-control").on("keyup", function () {
     })
 });
 
+var productList = ["All", "Movies", "Albums", "Books"];
+    var j=1;
+    for (var i = 0; i < productList.length; i++) {
+           $('select').append('<option></option>');
+           $('select option:last-child').attr('value',j);
+           $('select option:last-child').text(productList[i]);
+          j+=1;
+    }
+
+
+      $("select").change (function(event){
+        var passOption= $(event.target).val();
+        switch(passOption){
+          case "1":
+              $('.products1, .products2, .products3').show();
+              break;
+          case "2":
+              $('.products1 section').show();
+              $('.products2 section, .products3 section').hide();
+              break;
+          case "3":
+              $('.products2 section').show();
+              $('.products1 section, .products3 section').hide();
+              break;
+          case "4":
+              $('.products3 section').show();
+              $('.products1 section, .products2 section').hide();
+              break;
+        };
+      });
+ 
+
+
 // function filter() {
 //     var keyword = document.getElementById("filter").value;
 //     var filter= document.getElementById("inputGroupSelect04");
