@@ -110,7 +110,7 @@ function addToPage(a){
     var n= i+" .name";
     var c= i+" .category";
     var p= i+" .price";
-    $('.products1').append('<section class="bd-highlight text-uppercase text-left font-weight-bold ml-5 border p-5 bg-white mb-5 " ><img/><p class="name name text-dark title text-center mt-2  p-1""></p><p class="category text-dark title text-left"></p><p class="price text-warning"></p> <a href="details.html?id=book_1" class="p text-center mt-1 border  text-light p-2">Shop Now</a></section>');
+    $('.products1').append('<section class="bd-highlight text-uppercase text-left font-weight-bold ml-5 border p-5 bg-white mb-5 " ><img/><p class="name name text-dark title text-center mt-2  p-1""></p><p class="category text-dark title text-left"></p><p class="price text-warning"></p> <a href="details.html" class="p text-center mt-1 border  text-light p-2">Shop Now</a></section>');
     $('.products1 section:last-child').attr('id',a[j].id);
     $(i).addClass(a[j].category);
     $(m).attr('src', a[j].picture_url);
@@ -134,7 +134,7 @@ function addToPage(a){
     var n= i+" .name";
     var c= i+" .category";
     var p= i+" .price";
-    $('.products2').append('<section class="bd-highlight text-uppercase text-left font-weight-bold ml-5 border p-5 bg-white mb-5 " ><img/><p class="name name text-dark title text-center mt-2  p-1""></p><p class="category text-dark title text-left"></p><p class="price text-warning"></p> <a href="#" class="p text-center mt-1 border  text-light p-2">Shop Now</a></section>');
+    $('.products2').append('<section class="bd-highlight text-uppercase text-left font-weight-bold ml-5 border p-5 bg-white mb-5 " ><img/><p class="name name text-dark title text-center mt-2  p-1""></p><p class="category text-dark title text-left"></p><p class="price text-warning"></p> <a href="details.html" class="p text-center mt-1 border  text-light p-2">Shop Now</a></section>');
     $('.products2 section:last-child').attr('id',a[j].id);
     $(i).addClass(a[j].category);
     $(m).attr('src', a[j].picture_url);
@@ -154,7 +154,7 @@ function addToPage(a){
     var n= i+" .name";
     var c= i+" .category";
     var p= i+" .price";
-    $('.products3').append('<section class="bd-highlight text-uppercase text-left font-weight-bold ml-5 border p-5 bg-white mb-5 " ><img/><p class="name name text-dark title text-center mt-2  p-1""></p><p class="category text-dark title text-left"></p><p class="price text-warning"></p> <a href="details.html?id" class="p text-center mt-1 border  text-light p-2">Shop Now</a></section>');
+    $('.products3').append('<section class="bd-highlight text-uppercase text-left font-weight-bold ml-5 border p-5 bg-white mb-5 " ><img/><p class="name name text-dark title text-center mt-2  p-1""></p><p class="category text-dark title text-left"></p><p class="price text-warning"></p> <a href="details.html" class="p text-center mt-1 border  text-light p-2">Shop Now</a></section>');
     $('.products3 section:last-child').attr('id',a[j].id);
     $(i).addClass(a[j].category);
     $(m).attr('src', a[j].picture_url);
@@ -200,9 +200,30 @@ $(".form-control").on("keyup", function () {
 
 
 
-
-
-
+// $('#inputGroupSelect04').on('change', function (event) {
+// 	event.preventDefault();
+// 	var userSelectOption = event.target.value;
+// 	if (userSelectOption === "All") {
+// 		$(products.movies).show();
+// 		$(products.albums).show();
+// 		$(products.books).show();
+// 	}
+// 	else if (userSelectOption === "Movies") {
+// 		$(products.movies).show();
+// 		$(products.albums).hide();
+// 		$(products.books).hide();
+// 	}
+// 	else if (userSelectOption === "Books") {
+// 		$(products.books).show();
+// 		$(products.movies).hide();
+// 		$(products.albums).hide();
+// 	}
+// 	else if (userSelectOption === "Albums") {
+// 		$(products.albums).show();
+// 		$(products.books).hide();
+// 		$(products.movies).hide();
+// 	}
+// });
 
 
 
