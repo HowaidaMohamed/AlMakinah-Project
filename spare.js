@@ -198,7 +198,7 @@ var productList = ["All", "Movies", "Albums", "Books"];
         var passOption= $(event.target).val();
         switch(passOption){
           case "1":
-              $('.products1, .products2, .products3').show();
+              $('.products1 section, .products2 section, .products3 section').show();
               break;
           case "2":
               $('.products1 section').show();
