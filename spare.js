@@ -1,5 +1,13 @@
 
 //Here We're making an object of arrays, where each array hold objects of different product categories
+
+var userName = prompt("enter your username");
+$('.dropdown button').text("Hi" + "," +" "+ userName);
+
+$(document).ready(function(){
+  $(".dropdown-toggle").dropdown();
+});
+
 var books1, books2, books3, albums1, albums2, albums3, movies1, movies2, movies3;
 
 var products = {
@@ -267,7 +275,7 @@ var modal2 = document.getElementById('myModal2');
 var btn2 = document.getElementById("myBtn2");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span2 = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal 
 btn2.onclick = function() {
@@ -275,7 +283,7 @@ btn2.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span2.onclick = function() {
   modal2.style.display = "none";
 }
 
@@ -483,3 +491,5 @@ window.onclick = function(event) {
     modal9.style.display = "none";
   }
 }
+
+
